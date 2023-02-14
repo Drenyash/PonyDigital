@@ -1,0 +1,1 @@
+.features {  padding-top: 90px;  &__item {	display: flex;	flex-direction: column;	row-gap: 10px;	padding: 30px;	width: 100%;	min-height: 140px;	background-color: #f2f2f2;	border-radius: 5px;  }  &__img {	max-width: 22px;  }  &__title {	font-size: 16px;	font-weight: 300;	line-height: 24px;	color: $black;  }}

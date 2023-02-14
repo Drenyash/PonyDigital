@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="519c5930-712e-4a70-8efe-9f5c6b9081a9" name="Changes" comment="Pony Digital">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Roboto.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Roboto.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Robotobold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Robotobold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Robotolight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Robotolight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Robotomedium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Robotomedium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/buh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/hash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/nyan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/prog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/rep.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/calc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/_fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/_style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/_var.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/blocks/_features.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/blocks/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/blocks/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/blocks/_menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/blocks/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/blocks/_news.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/blocks/_swiper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/android-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/android-icon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/android-icon-36x36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/android-icon-48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/android-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/android-icon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/apple-icon-114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/apple-icon-120x120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/apple-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/apple-icon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/apple-icon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/apple-icon-57x57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/apple-icon-60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/apple-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/apple-icon-76x76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/apple-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ms-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ms-icon-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ms-icon-310x310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ms-icon-70x70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Lhi7RTrts3JbKUQaR6jM1BMvn3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/sobes/test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="npm.build-prod">
+    <configuration name="build-prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build-prod" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build-prod" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="519c5930-712e-4a70-8efe-9f5c6b9081a9" name="Changes" comment="" />
+      <created>1676329553835</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676329553835</updated>
+      <workItem from="1676329555698" duration="7211000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Pony Digital" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pony Digital" />
+  </component>
+</project>
