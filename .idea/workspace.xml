@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="519c5930-712e-4a70-8efe-9f5c6b9081a9" name="Changes" comment="Pony Digital">
-      <changelist_data name="TakenHara" email="takenhara@gmail.com" />
+    <list default="true" id="519c5930-712e-4a70-8efe-9f5c6b9081a9" name="Changes" comment="PonyDigital">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +21,18 @@
     </option>
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="34da72d1-b54c-407d-955f-28b7c1cb3887" />
+        <option name="url" value="https://github.com/Drenyash/PonyDigital.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -35,6 +47,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "19.3.0",
+    "javascript.nodejs.core.library.typings.version": "18.13.0",
     "last_opened_file_path": "D:/sobes/test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -44,7 +58,17 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="npm.build-prod">
+  <component name="RunManager" selected="npm.build-dev">
+    <configuration name="build-dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build-dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="build-prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -67,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build-dev" />
         <item itemvalue="npm.build-prod" />
         <item itemvalue="npm.start" />
       </list>
@@ -80,7 +105,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676329553835</updated>
-      <workItem from="1676329555698" duration="7499000" />
+      <workItem from="1676329555698" duration="7729000" />
+      <workItem from="1676363004829" duration="1621000" />
     </task>
     <task id="LOCAL-00001" summary="Pony Digital">
       <created>1676337001829</created>
@@ -96,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676337008944</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="PonyDigital">
+      <created>1676337370092</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676337370092</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +169,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pony Digital" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pony Digital" />
+    <MESSAGE value="PonyDigital" />
+    <option name="LAST_COMMIT_MESSAGE" value="PonyDigital" />
   </component>
 </project>
