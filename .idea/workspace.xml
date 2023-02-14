@@ -5,75 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="519c5930-712e-4a70-8efe-9f5c6b9081a9" name="Changes" comment="Pony Digital">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Roboto.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Roboto.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Robotobold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Robotobold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Robotolight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Robotolight.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Robotomedium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Robotomedium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/buh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/hash.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/nyan.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/prog.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/rep.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/calc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/_style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/_var.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/blocks/_features.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/blocks/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/blocks/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/blocks/_menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/blocks/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/blocks/_news.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/blocks/_swiper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/android-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/android-icon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/android-icon-36x36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/android-icon-48x48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/android-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/android-icon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/apple-icon-114x114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/apple-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/apple-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/apple-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/apple-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/apple-icon-57x57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/apple-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/apple-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/apple-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/apple-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/ms-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/ms-icon-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/ms-icon-310x310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/ms-icon-70x70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <changelist_data name="TakenHara" email="takenhara@gmail.com" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="TakenHara &lt;takenhara@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -134,8 +80,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676329553835</updated>
-      <workItem from="1676329555698" duration="7211000" />
+      <workItem from="1676329555698" duration="7499000" />
     </task>
+    <task id="LOCAL-00001" summary="Pony Digital">
+      <created>1676337001829</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676337001829</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Pony Digital">
+      <created>1676337008944</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676337008944</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,11 +105,32 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="4114844c-5a95-4f61-9074-ffc2078d09c3">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="4d737aed-487d-42b0-9b90-eb52f31c3c8a">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="4d737aed-487d-42b0-9b90-eb52f31c3c8a" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>

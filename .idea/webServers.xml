@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9a02c980-5011-4b1c-a9ce-4848b12ac183" name="https://github.com/Drenyash/PonyDigital.git" url="http://github.com/Drenyash/PonyDigital.git">
+        <fileTransfer accessType="SFTP" sshConfigId="2f0caff0-e2ad-488b-98ae-d6acace6f7e2" sshConfig="https://github.com/Drenyash/PonyDigital.git">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
