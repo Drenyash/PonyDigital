@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="519c5930-712e-4a70-8efe-9f5c6b9081a9" name="Changes" comment="PonyDigital">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="519c5930-712e-4a70-8efe-9f5c6b9081a9" name="Changes" comment="Build">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/_style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/blocks/_features.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/_features.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/blocks/_news.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/_news.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="npm.build-dev">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build-dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -91,9 +93,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.build-dev" />
         <item itemvalue="npm.build-prod" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676329553835</updated>
       <workItem from="1676329555698" duration="7729000" />
-      <workItem from="1676363004829" duration="1621000" />
+      <workItem from="1676363004829" duration="2982000" />
     </task>
     <task id="LOCAL-00001" summary="Pony Digital">
       <created>1676337001829</created>
@@ -129,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676337370092</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Build">
+      <created>1676365228794</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676365228794</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pony Digital" />
     <MESSAGE value="PonyDigital" />
-    <option name="LAST_COMMIT_MESSAGE" value="PonyDigital" />
+    <MESSAGE value="Build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build" />
   </component>
 </project>
