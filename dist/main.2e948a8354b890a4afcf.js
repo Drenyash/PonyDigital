@@ -1,6 +1,21 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/script.js":
+/*!***********************!*\
+  !*** ./src/script.js ***!
+  \***********************/
+/***/ (() => {
+
+var burger = document.querySelector('.burger');
+var menu = document.querySelector('.menu');
+function toggleBurgerMenu() {
+  burger.classList.toggle('burger_active');
+  burger.classList.contains('burger_active') ? menu.classList.add('menu_show') : menu.classList.remove('menu_show');
+}
+burger.addEventListener('click', toggleBurgerMenu);
+
+/***/ }),
 
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/normalize.css/normalize.css":
 /*!****************************************************************************************!*\
@@ -8,6 +23,7 @@
   \****************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -34,6 +50,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "/*! normalize.css v8.0.1 | MIT License
   \******************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -65,6 +82,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "/**\n * Swiper 9.0.5\n * Most modern m
   \*************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -111,6 +129,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n  font-family: \"Roboto\
   \*****************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /*
@@ -205,6 +224,7 @@ module.exports = function (cssWithMappingToString) {
   \********************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 module.exports = function (url, options) {
@@ -240,6 +260,7 @@ module.exports = function (url, options) {
   \************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 module.exports = function (item) {
@@ -265,6 +286,7 @@ module.exports = function (item) {
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -290,7 +312,6 @@ var ___HTML_LOADER_IMPORT_13___ = new URL(/* asset import */ __webpack_require__
 var ___HTML_LOADER_IMPORT_14___ = new URL(/* asset import */ __webpack_require__(/*! ./img/rep.svg */ "./src/img/rep.svg"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_15___ = new URL(/* asset import */ __webpack_require__(/*! ./img/prog.svg */ "./src/img/prog.svg"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_16___ = new URL(/* asset import */ __webpack_require__(/*! ./img/nyan.svg */ "./src/img/nyan.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_17___ = new URL(/* asset import */ __webpack_require__(/*! ./script.js */ "./src/script.js"), __webpack_require__.b);
 // Module
 var ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);
 var ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);
@@ -309,8 +330,7 @@ var ___HTML_LOADER_REPLACEMENT_13___ = _node_modules_html_loader_dist_runtime_ge
 var ___HTML_LOADER_REPLACEMENT_14___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_14___);
 var ___HTML_LOADER_REPLACEMENT_15___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_15___);
 var ___HTML_LOADER_REPLACEMENT_16___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_16___);
-var ___HTML_LOADER_REPLACEMENT_17___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_17___);
-var code = "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n\t\t<meta charset=\"UTF-8\">\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n\t\t<title>Pony Digital</title>\n\n\t\t<link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"" + ___HTML_LOADER_REPLACEMENT_4___ + "\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"" + ___HTML_LOADER_REPLACEMENT_5___ + "\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"" + ___HTML_LOADER_REPLACEMENT_6___ + "\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"" + ___HTML_LOADER_REPLACEMENT_7___ + "\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"" + ___HTML_LOADER_REPLACEMENT_8___ + "\">\n\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"" + ___HTML_LOADER_REPLACEMENT_9___ + "\">\n\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"" + ___HTML_LOADER_REPLACEMENT_10___ + "\">\n\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"" + ___HTML_LOADER_REPLACEMENT_11___ + "\">\n</head>\n<body>\n<header class=\"header\">\n\t\t<div class=\"container\">\n\t\t\t\t<div class=\"header__wrapper\">\n\t\t\t\t\t\t<a href=\"/\" class=\"logo\">\n\t\t\t\t\t\t\t\t<img src=\"" + ___HTML_LOADER_REPLACEMENT_12___ + "\" alt=\"Логотип\">\n\t\t\t\t\t\t</a>\n\t\t\t\t\t\t<nav class=\"nav\">\n\t\t\t\t\t\t\t\t<a href=\"/\" class=\"nav__link nav__link_active\" tabindex=\"0\">Главная</a>\n\t\t\t\t\t\t\t\t<a href=\"/about\" class=\"nav__link\" tabindex=\"0\">О нас</a>\n\t\t\t\t\t\t\t\t<a href=\"/events\" class=\"nav__link\" tabindex=\"0\">Мероприятия</a>\n\t\t\t\t\t\t\t\t<a href=\"/news\" class=\"nav__link\" tabindex=\"0\">Новости</a>\n\t\t\t\t\t\t</nav>\n\t\t\t\t\t\t<div class=\"header__user-control user-control\">\n\t\t\t\t\t\t\t\t<a href=\"#\" class=\"header__link btn btn_accent\">\n\t\t\t\t\t\t\t\t\t\t<svg width=\"18\" height=\"18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t\t\t\t\t\t\t\t<path\n\t\t\t\t\t\t\t\t\t\t\t\t\t\td=\"M17 6.778V4.556h-2.971l.685-3.112L12.43 1l-.8 3.556H8.2L9 1.444 6.714 1l-.8 3.556H2.143v2.222h3.314L4.43 11.222H1v2.222h2.971l-.685 3.112L5.57 17l.8-3.556H9.8L9 16.556l2.286.444.8-3.556h3.771v-2.222h-3.314l1.028-4.444H17Zm-6.857 4.444H6.714l1.143-4.444h3.429l-1.143 4.444Z\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tfill=\"#fff\" stroke=\"#E04E39\" stroke-width=\".5\"/>\n\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\tПолезное\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t<a href=\"#\" class=\"header__link btn\">Личный кабинет</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"burger\">\n\t\t\t\t\t\t\t\t<span class=\"burger__item\"></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t</div>\n</header>\n<main class=\"main\">\n\t\t<h1 class=\"visually-hidden\">Мероприятия по продаже лошадок</h1>\n\t\t<div class=\"menu\">\n\t\t\t\t<nav class=\"nav nav_column\">\n\t\t\t\t\t\t<a href=\"#\" class=\"nav__link nav__link_active\">Главная</a>\n\t\t\t\t\t\t<a href=\"#\" class=\"nav__link\">О нас</a>\n\t\t\t\t\t\t<a href=\"#\" class=\"nav__link\">Мероприятия</a>\n\t\t\t\t\t\t<a href=\"#\" class=\"nav__link\">Новости</a>\n\t\t\t\t</nav>\n\t\t\t\t<div class=\"menu__user-control user-control\">\n\t\t\t\t\t\t<a href=\"#\" class=\"header__link btn btn_accent\">\n\t\t\t\t\t\t\t\t<svg width=\"18\" height=\"18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t\t\t\t\t\t<path\n\t\t\t\t\t\t\t\t\t\t\t\td=\"M17 6.778V4.556h-2.971l.685-3.112L12.43 1l-.8 3.556H8.2L9 1.444 6.714 1l-.8 3.556H2.143v2.222h3.314L4.43 11.222H1v2.222h2.971l-.685 3.112L5.57 17l.8-3.556H9.8L9 16.556l2.286.444.8-3.556h3.771v-2.222h-3.314l1.028-4.444H17Zm-6.857 4.444H6.714l1.143-4.444h3.429l-1.143 4.444Z\"\n\t\t\t\t\t\t\t\t\t\t\t\tfill=\"#fff\" stroke=\"#E04E39\" stroke-width=\".5\"/>\n\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\tПолезное\n\t\t\t\t\t\t</a>\n\t\t\t\t\t\t<a href=\"#\" class=\"header__link btn\">Личный кабинет</a>\n\t\t\t\t</div>\n\t\t</div>\n\t\t<section class=\"section section_white news\">\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t\t<header class=\"section__header\">\n\t\t\t\t\t\t\t\t<h2 class=\"section__title news__head\">Мероприятия</h2>\n\t\t\t\t\t\t\t\t<button class=\"btn btn_accent\">Смотреть все мероприятия</button>\n\t\t\t\t\t\t</header>\n\t\t\t\t\t\t<div class=\"section__wrapper news__wrapper\">\n\t\t\t\t\t\t\t\t<article class=\"news__item\" tabindex=\"0\">\n\t\t\t\t\t\t\t\t\t\t<img class=\"news__img\"\n\t\t\t\t\t\t\t\t\t\t     src=\"https://cdn.dribbble.com/userupload/3914092/file/original-9be9f175ba0b363e52ceedb27756a987.png?compress=1&resize=752x\"\n\t\t\t\t\t\t\t\t\t\t     alt=\"Вебинар 'Построение бизнес-модели стартапа'\">\n\t\t\t\t\t\t\t\t\t\t<h3 class=\"news__title\">Вебинар \"Построение бизнес-модели стартапа\"</h3>\n\t\t\t\t\t\t\t\t\t\t<time datetime=\"2023-09-02T17:30:00.01\" class=\"news__date\">2 и 4 сентября, 17:30-19:45</time>\n\t\t\t\t\t\t\t\t\t\t<div class=\"news__text\">Вебинар</div>\n\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t\t\t<article class=\"news__item\" tabindex=\"0\">\n\t\t\t\t\t\t\t\t\t\t<img class=\"news__img\"\n\t\t\t\t\t\t\t\t\t\t     src=\"https://cdn.dribbble.com/users/1731254/screenshots/17467758/media/5adb0ab2a8b4bd7669a7e78e7f464fa2.png?compress=1&resize=1000x750&vertical=top\"\n\t\t\t\t\t\t\t\t\t\t     alt=\"Необходимые меры за 4 месяца до обязательной маркировки товаров легкой\n\t\t\t\t\t\t\t\t\t\t\t\tпромышленности\">\n\t\t\t\t\t\t\t\t\t\t<h3 class=\"news__title\">Необходимые меры за 4 месяца до обязательной маркировки товаров легкой\n\t\t\t\t\t\t\t\t\t\t\t\tпромышленности</h3>\n\t\t\t\t\t\t\t\t\t\t<time datetime=\"2023-09-10T11:00:00.01\" class=\"news__date\">10 сентября, 11:00</time>\n\t\t\t\t\t\t\t\t\t\t<div class=\"news__text\">Лекция</div>\n\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t\t\t<article class=\"news__item\" tabindex=\"0\">\n\t\t\t\t\t\t\t\t\t\t<img class=\"news__img\"\n\t\t\t\t\t\t\t\t\t\t     src=\"https://cdn.dribbble.com/userupload/3496938/file/original-96619f4dfeb1391aae71a6d78d7df519.png?compress=1&resize=1024x768&vertical=center\"\n\t\t\t\t\t\t\t\t\t\t     alt=\"Вебинар 'Customer Development. Инструмент по проверке гипотез о своем\n\t\t\t\t\t\t\t\t\t\t     клиенте'\">\n\t\t\t\t\t\t\t\t\t\t<h3 class=\"news__title\">Вебинар \"Customer Development. Инструмент по проверке гипотез о своем\n\t\t\t\t\t\t\t\t\t\t\t\tклиенте\"</h3>\n\t\t\t\t\t\t\t\t\t\t<time datetime=\"2023-09-11T17:30:00.01\" class=\"news__date\">11 сентября, 17:30-19:45</time>\n\t\t\t\t\t\t\t\t\t\t<div class=\"news__text\">Вебинар</div>\n\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t\t\t<article class=\"news__item\" tabindex=\"0\">\n\t\t\t\t\t\t\t\t\t\t<img class=\"news__img\"\n\t\t\t\t\t\t\t\t\t\t     src=\"https://cdn.dribbble.com/userupload/4298205/file/original-b5616442e88d896b1818e8c7ee0c074d.png?compress=1&resize=1024x768\"\n\t\t\t\t\t\t\t\t\t\t     alt=\"Выставка 'Новые меры финансовой поддержки экспорта'\">\n\t\t\t\t\t\t\t\t\t\t<h3 class=\"news__title\">Выставка «Новые меры финансовой поддержки экспорта»\n\t\t\t\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t\t\t\t<time datetime=\"2023-09-10T11:00:00.01\" class=\"news__date\">10 сентября, 11:00</time>\n\t\t\t\t\t\t\t\t\t\t<div class=\"news__text\">Выставка</div>\n\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t</section>\n\t\t<section class=\"section features\">\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t\t<header class=\"section__header\">\n\t\t\t\t\t\t\t\t<h2 class=\"section__title\">У нас работают</h2>\n\t\t\t\t\t\t</header>\n\t\t\t\t\t\t<div class=\"section__wrapper features__wrapper swiper\">\n\t\t\t\t\t\t\t\t<div class=\"swiper-wrapper\">\n\t\t\t\t\t\t\t\t\t\t<article class=\"features__item swiper-slide\" tabindex=\"0\">\n\t\t\t\t\t\t\t\t\t\t\t\t<img class=\"features__img\" src=\"" + ___HTML_LOADER_REPLACEMENT_13___ + "\" alt=\"Иконка бухгалтерии\">\n\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"features__title\">Бухгалтеры</h3>\n\t\t\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t\t\t\t\t<article class=\"features__item swiper-slide\" tabindex=\"0\">\n\t\t\t\t\t\t\t\t\t\t\t\t<img class=\"features__img\" src=\"" + ___HTML_LOADER_REPLACEMENT_14___ + "\" alt=\"Иконка репетиторы\">\n\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"features__title\">Репетиторы</h3>\n\t\t\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t\t\t\t\t<article class=\"features__item swiper-slide\" tabindex=\"0\">\n\t\t\t\t\t\t\t\t\t\t\t\t<img class=\"features__img\" src=\"" + ___HTML_LOADER_REPLACEMENT_15___ + "\" alt=\"Иконка программисты\">\n\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"features__title\">Программисты</h3>\n\t\t\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t\t\t\t\t<article class=\"features__item swiper-slide\" tabindex=\"0\">\n\t\t\t\t\t\t\t\t\t\t\t\t<img class=\"features__img\" src=\"" + ___HTML_LOADER_REPLACEMENT_16___ + "\" alt=\"Иконка няни и сиделки\">\n\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"features__title\">Няни<br/>и сиделки</h3>\n\t\t\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t\t\t\t\t<article class=\"features__item swiper-slide\">\n\t\t\t\t\t\t\t\t\t\t\t\t<img class=\"features__img\" src=\"" + ___HTML_LOADER_REPLACEMENT_13___ + "\" alt=\"Иконка бухгалтерии\">\n\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"features__title\">Бухгалтеры</h3>\n\t\t\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t\t\t\t\t<article class=\"features__item swiper-slide\">\n\t\t\t\t\t\t\t\t\t\t\t\t<img class=\"features__img\" src=\"" + ___HTML_LOADER_REPLACEMENT_14___ + "\" alt=\"Иконка репетиторы\">\n\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"features__title\">Репетиторы</h3>\n\t\t\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"swiper-control\">\n\t\t\t\t\t\t\t\t\t\t<button class=\"swiper-button swiper-button-prev\">\n\t\t\t\t\t\t\t\t\t\t\t\t<svg width=\"23\" height=\"12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\td=\"m6.311 11.985 1.061-1.007-4.5-4.273H22.43V5.281H2.872l4.5-4.273L6.311 0 0 5.992l6.311 5.991v.002Z\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tfill=\"#E04E39\"/>\n\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t\t<div class=\"swiper-pagination\"></div>\n\t\t\t\t\t\t\t\t\t\t<button class=\"swiper-button swiper-button-next\">\n\t\t\t\t\t\t\t\t\t\t\t\t<svg width=\"23\" height=\"12\" viewBox=\"0 0 23 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\td=\"M16.1188 0L15.0578 1.00746L19.5578 5.2804H-0.00012207V6.70471H19.5578L15.0578 10.9776L16.1188 11.9851L22.4298 5.9935L16.1188 0.00189894V0Z\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tfill=\"#E04E39\"/>\n\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t</section>\n</main>\n<footer class=\"footer\">\n\t\t<div class=\"container\">\n\t\t\t\t<div class=\"footer__wrapper\">\n\t\t\t\t\t\t<p class=\"copy\">Подвал сайта © - зарегестрированная торговая марка</p>\n\t\t\t\t</div>\n\t\t</div>\n</footer>\n\n<" + "script src=\"" + ___HTML_LOADER_REPLACEMENT_17___ + "\"><" + "/script>\n</body>\n</html>";
+var code = "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n\t\t<meta charset=\"UTF-8\">\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n\t\t<title>Pony Digital</title>\n\n\t\t<link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"" + ___HTML_LOADER_REPLACEMENT_4___ + "\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"" + ___HTML_LOADER_REPLACEMENT_5___ + "\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"" + ___HTML_LOADER_REPLACEMENT_6___ + "\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"" + ___HTML_LOADER_REPLACEMENT_7___ + "\">\n\t\t<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"" + ___HTML_LOADER_REPLACEMENT_8___ + "\">\n\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"" + ___HTML_LOADER_REPLACEMENT_9___ + "\">\n\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"" + ___HTML_LOADER_REPLACEMENT_10___ + "\">\n\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"" + ___HTML_LOADER_REPLACEMENT_11___ + "\">\n</head>\n<body>\n<header class=\"header\">\n\t\t<div class=\"container\">\n\t\t\t\t<div class=\"header__wrapper\">\n\t\t\t\t\t\t<a href=\"/\" class=\"logo\">\n\t\t\t\t\t\t\t\t<img src=\"" + ___HTML_LOADER_REPLACEMENT_12___ + "\" alt=\"Логотип\">\n\t\t\t\t\t\t</a>\n\t\t\t\t\t\t<nav class=\"nav\">\n\t\t\t\t\t\t\t\t<a href=\"/\" class=\"nav__link nav__link_active\" tabindex=\"0\">Главная</a>\n\t\t\t\t\t\t\t\t<a href=\"/about\" class=\"nav__link\" tabindex=\"0\">О нас</a>\n\t\t\t\t\t\t\t\t<a href=\"/events\" class=\"nav__link\" tabindex=\"0\">Мероприятия</a>\n\t\t\t\t\t\t\t\t<a href=\"/news\" class=\"nav__link\" tabindex=\"0\">Новости</a>\n\t\t\t\t\t\t</nav>\n\t\t\t\t\t\t<div class=\"header__user-control user-control\">\n\t\t\t\t\t\t\t\t<a href=\"#\" class=\"header__link btn btn_accent\">\n\t\t\t\t\t\t\t\t\t\t<svg width=\"18\" height=\"18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t\t\t\t\t\t\t\t<path\n\t\t\t\t\t\t\t\t\t\t\t\t\t\td=\"M17 6.778V4.556h-2.971l.685-3.112L12.43 1l-.8 3.556H8.2L9 1.444 6.714 1l-.8 3.556H2.143v2.222h3.314L4.43 11.222H1v2.222h2.971l-.685 3.112L5.57 17l.8-3.556H9.8L9 16.556l2.286.444.8-3.556h3.771v-2.222h-3.314l1.028-4.444H17Zm-6.857 4.444H6.714l1.143-4.444h3.429l-1.143 4.444Z\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tfill=\"#fff\" stroke=\"#E04E39\" stroke-width=\".5\"/>\n\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\tПолезное\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t<a href=\"#\" class=\"header__link btn\">Личный кабинет</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"burger\">\n\t\t\t\t\t\t\t\t<span class=\"burger__item\"></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t</div>\n</header>\n<main class=\"main\">\n\t\t<h1 class=\"visually-hidden\">Мероприятия по продаже лошадок</h1>\n\t\t<div class=\"menu\">\n\t\t\t\t<nav class=\"nav nav_column\">\n\t\t\t\t\t\t<a href=\"#\" class=\"nav__link nav__link_active\">Главная</a>\n\t\t\t\t\t\t<a href=\"#\" class=\"nav__link\">О нас</a>\n\t\t\t\t\t\t<a href=\"#\" class=\"nav__link\">Мероприятия</a>\n\t\t\t\t\t\t<a href=\"#\" class=\"nav__link\">Новости</a>\n\t\t\t\t</nav>\n\t\t\t\t<div class=\"menu__user-control user-control\">\n\t\t\t\t\t\t<a href=\"#\" class=\"header__link btn btn_accent\">\n\t\t\t\t\t\t\t\t<svg width=\"18\" height=\"18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t\t\t\t\t\t<path\n\t\t\t\t\t\t\t\t\t\t\t\td=\"M17 6.778V4.556h-2.971l.685-3.112L12.43 1l-.8 3.556H8.2L9 1.444 6.714 1l-.8 3.556H2.143v2.222h3.314L4.43 11.222H1v2.222h2.971l-.685 3.112L5.57 17l.8-3.556H9.8L9 16.556l2.286.444.8-3.556h3.771v-2.222h-3.314l1.028-4.444H17Zm-6.857 4.444H6.714l1.143-4.444h3.429l-1.143 4.444Z\"\n\t\t\t\t\t\t\t\t\t\t\t\tfill=\"#fff\" stroke=\"#E04E39\" stroke-width=\".5\"/>\n\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\tПолезное\n\t\t\t\t\t\t</a>\n\t\t\t\t\t\t<a href=\"#\" class=\"header__link btn\">Личный кабинет</a>\n\t\t\t\t</div>\n\t\t</div>\n\t\t<section class=\"section section_white news\">\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t\t<header class=\"section__header\">\n\t\t\t\t\t\t\t\t<h2 class=\"section__title news__head\">Мероприятия</h2>\n\t\t\t\t\t\t\t\t<button class=\"btn btn_accent\">Смотреть все мероприятия</button>\n\t\t\t\t\t\t</header>\n\t\t\t\t\t\t<div class=\"section__wrapper news__wrapper\">\n\t\t\t\t\t\t\t\t<article class=\"news__item\" tabindex=\"0\">\n\t\t\t\t\t\t\t\t\t\t<img class=\"news__img\"\n\t\t\t\t\t\t\t\t\t\t     src=\"https://cdn.dribbble.com/userupload/3914092/file/original-9be9f175ba0b363e52ceedb27756a987.png?compress=1&resize=752x\"\n\t\t\t\t\t\t\t\t\t\t     alt=\"Вебинар 'Построение бизнес-модели стартапа'\">\n\t\t\t\t\t\t\t\t\t\t<h3 class=\"news__title\">Вебинар \"Построение бизнес-модели стартапа\"</h3>\n\t\t\t\t\t\t\t\t\t\t<time datetime=\"2023-09-02T17:30:00.01\" class=\"news__date\">2 и 4 сентября, 17:30-19:45</time>\n\t\t\t\t\t\t\t\t\t\t<div class=\"news__text\">Вебинар</div>\n\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t\t\t<article class=\"news__item\" tabindex=\"0\">\n\t\t\t\t\t\t\t\t\t\t<img class=\"news__img\"\n\t\t\t\t\t\t\t\t\t\t     src=\"https://cdn.dribbble.com/users/1731254/screenshots/17467758/media/5adb0ab2a8b4bd7669a7e78e7f464fa2.png?compress=1&resize=1000x750&vertical=top\"\n\t\t\t\t\t\t\t\t\t\t     alt=\"Необходимые меры за 4 месяца до обязательной маркировки товаров легкой\n\t\t\t\t\t\t\t\t\t\t\t\tпромышленности\">\n\t\t\t\t\t\t\t\t\t\t<h3 class=\"news__title\">Необходимые меры за 4 месяца до обязательной маркировки товаров легкой\n\t\t\t\t\t\t\t\t\t\t\t\tпромышленности</h3>\n\t\t\t\t\t\t\t\t\t\t<time datetime=\"2023-09-10T11:00:00.01\" class=\"news__date\">10 сентября, 11:00</time>\n\t\t\t\t\t\t\t\t\t\t<div class=\"news__text\">Лекция</div>\n\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t\t\t<article class=\"news__item\" tabindex=\"0\">\n\t\t\t\t\t\t\t\t\t\t<img class=\"news__img\"\n\t\t\t\t\t\t\t\t\t\t     src=\"https://cdn.dribbble.com/userupload/3496938/file/original-96619f4dfeb1391aae71a6d78d7df519.png?compress=1&resize=1024x768&vertical=center\"\n\t\t\t\t\t\t\t\t\t\t     alt=\"Вебинар 'Customer Development. Инструмент по проверке гипотез о своем\n\t\t\t\t\t\t\t\t\t\t     клиенте'\">\n\t\t\t\t\t\t\t\t\t\t<h3 class=\"news__title\">Вебинар \"Customer Development. Инструмент по проверке гипотез о своем\n\t\t\t\t\t\t\t\t\t\t\t\tклиенте\"</h3>\n\t\t\t\t\t\t\t\t\t\t<time datetime=\"2023-09-11T17:30:00.01\" class=\"news__date\">11 сентября, 17:30-19:45</time>\n\t\t\t\t\t\t\t\t\t\t<div class=\"news__text\">Вебинар</div>\n\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t\t\t<article class=\"news__item\" tabindex=\"0\">\n\t\t\t\t\t\t\t\t\t\t<img class=\"news__img\"\n\t\t\t\t\t\t\t\t\t\t     src=\"https://cdn.dribbble.com/userupload/4298205/file/original-b5616442e88d896b1818e8c7ee0c074d.png?compress=1&resize=1024x768\"\n\t\t\t\t\t\t\t\t\t\t     alt=\"Выставка 'Новые меры финансовой поддержки экспорта'\">\n\t\t\t\t\t\t\t\t\t\t<h3 class=\"news__title\">Выставка «Новые меры финансовой поддержки экспорта»\n\t\t\t\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t\t\t\t<time datetime=\"2023-09-10T11:00:00.01\" class=\"news__date\">10 сентября, 11:00</time>\n\t\t\t\t\t\t\t\t\t\t<div class=\"news__text\">Выставка</div>\n\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t</section>\n\t\t<section class=\"section features\">\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t\t<header class=\"section__header\">\n\t\t\t\t\t\t\t\t<h2 class=\"section__title\">У нас работают</h2>\n\t\t\t\t\t\t</header>\n\t\t\t\t\t\t<div class=\"section__wrapper features__wrapper swiper\">\n\t\t\t\t\t\t\t\t<div class=\"swiper-wrapper\">\n\t\t\t\t\t\t\t\t\t\t<article class=\"features__item swiper-slide\" tabindex=\"0\">\n\t\t\t\t\t\t\t\t\t\t\t\t<img class=\"features__img\" src=\"" + ___HTML_LOADER_REPLACEMENT_13___ + "\" alt=\"Иконка бухгалтерии\">\n\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"features__title\">Бухгалтеры</h3>\n\t\t\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t\t\t\t\t<article class=\"features__item swiper-slide\" tabindex=\"0\">\n\t\t\t\t\t\t\t\t\t\t\t\t<img class=\"features__img\" src=\"" + ___HTML_LOADER_REPLACEMENT_14___ + "\" alt=\"Иконка репетиторы\">\n\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"features__title\">Репетиторы</h3>\n\t\t\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t\t\t\t\t<article class=\"features__item swiper-slide\" tabindex=\"0\">\n\t\t\t\t\t\t\t\t\t\t\t\t<img class=\"features__img\" src=\"" + ___HTML_LOADER_REPLACEMENT_15___ + "\" alt=\"Иконка программисты\">\n\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"features__title\">Программисты</h3>\n\t\t\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t\t\t\t\t<article class=\"features__item swiper-slide\" tabindex=\"0\">\n\t\t\t\t\t\t\t\t\t\t\t\t<img class=\"features__img\" src=\"" + ___HTML_LOADER_REPLACEMENT_16___ + "\" alt=\"Иконка няни и сиделки\">\n\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"features__title\">Няни<br/>и сиделки</h3>\n\t\t\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t\t\t\t\t<article class=\"features__item swiper-slide\">\n\t\t\t\t\t\t\t\t\t\t\t\t<img class=\"features__img\" src=\"" + ___HTML_LOADER_REPLACEMENT_13___ + "\" alt=\"Иконка бухгалтерии\">\n\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"features__title\">Бухгалтеры</h3>\n\t\t\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t\t\t\t\t<article class=\"features__item swiper-slide\">\n\t\t\t\t\t\t\t\t\t\t\t\t<img class=\"features__img\" src=\"" + ___HTML_LOADER_REPLACEMENT_14___ + "\" alt=\"Иконка репетиторы\">\n\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"features__title\">Репетиторы</h3>\n\t\t\t\t\t\t\t\t\t\t</article>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"swiper-control\">\n\t\t\t\t\t\t\t\t\t\t<button class=\"swiper-button swiper-button-prev\">\n\t\t\t\t\t\t\t\t\t\t\t\t<svg width=\"23\" height=\"12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\td=\"m6.311 11.985 1.061-1.007-4.5-4.273H22.43V5.281H2.872l4.5-4.273L6.311 0 0 5.992l6.311 5.991v.002Z\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tfill=\"#E04E39\"/>\n\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t\t<div class=\"swiper-pagination\"></div>\n\t\t\t\t\t\t\t\t\t\t<button class=\"swiper-button swiper-button-next\">\n\t\t\t\t\t\t\t\t\t\t\t\t<svg width=\"23\" height=\"12\" viewBox=\"0 0 23 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\td=\"M16.1188 0L15.0578 1.00746L19.5578 5.2804H-0.00012207V6.70471H19.5578L15.0578 10.9776L16.1188 11.9851L22.4298 5.9935L16.1188 0.00189894V0Z\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tfill=\"#E04E39\"/>\n\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t</section>\n</main>\n<footer class=\"footer\">\n\t\t<div class=\"container\">\n\t\t\t\t<div class=\"footer__wrapper\">\n\t\t\t\t\t\t<p class=\"copy\">Подвал сайта © - зарегестрированная торговая марка</p>\n\t\t\t\t</div>\n\t\t</div>\n</footer>\n\n</body>\n</html>";
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);
 
@@ -322,6 +342,7 @@ var code = "<!DOCTYPE html>\n<html lang=\"ru\">\n<head>\n\t\t<meta charset=\"UTF
   \*********************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 module.exports = function (url, options) {
@@ -357,6 +378,7 @@ module.exports = function (url, options) {
   \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -411,6 +433,7 @@ var update = _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMP
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -465,6 +488,7 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
   \****************************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 var stylesInDOM = [];
@@ -578,6 +602,7 @@ module.exports = function (list, options) {
   \********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 var memo = {};
@@ -626,6 +651,7 @@ module.exports = insertBySelector;
   \**********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -646,6 +672,7 @@ module.exports = insertStyleElement;
   \**********************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -667,6 +694,7 @@ module.exports = setAttributesWithoutAttributes;
   \***************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -746,6 +774,7 @@ module.exports = domAPI;
   \*********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -771,17 +800,8 @@ module.exports = styleTagTransform;
   \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = "data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA";
-
-/***/ }),
-
-/***/ "./src/script.js":
-/*!***********************!*\
-  !*** ./src/script.js ***!
-  \***********************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "assets/script.js";
 
 /***/ }),
 
@@ -791,6 +811,7 @@ module.exports = __webpack_require__.p + "assets/script.js";
   \********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "fonts/Roboto.woff2";
 
 /***/ }),
@@ -801,6 +822,7 @@ module.exports = __webpack_require__.p + "fonts/Roboto.woff2";
   \***********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "fonts/Robotobold.woff";
 
 /***/ }),
@@ -811,6 +833,7 @@ module.exports = __webpack_require__.p + "fonts/Robotobold.woff";
   \************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "fonts/Robotobold.woff2";
 
 /***/ }),
@@ -821,6 +844,7 @@ module.exports = __webpack_require__.p + "fonts/Robotobold.woff2";
   \************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "fonts/Robotolight.woff";
 
 /***/ }),
@@ -831,6 +855,7 @@ module.exports = __webpack_require__.p + "fonts/Robotolight.woff";
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "fonts/Robotolight.woff2";
 
 /***/ }),
@@ -841,6 +866,7 @@ module.exports = __webpack_require__.p + "fonts/Robotolight.woff2";
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "fonts/Robotomedium.woff";
 
 /***/ }),
@@ -851,6 +877,7 @@ module.exports = __webpack_require__.p + "fonts/Robotomedium.woff";
   \**************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "fonts/Robotomedium.woff2";
 
 /***/ }),
@@ -861,6 +888,7 @@ module.exports = __webpack_require__.p + "fonts/Robotomedium.woff2";
   \**************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "assets/Logo.svg";
 
 /***/ }),
@@ -871,6 +899,7 @@ module.exports = __webpack_require__.p + "assets/Logo.svg";
   \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "assets/buh.svg";
 
 /***/ }),
@@ -881,6 +910,7 @@ module.exports = __webpack_require__.p + "assets/buh.svg";
   \**************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "assets/nyan.svg";
 
 /***/ }),
@@ -891,6 +921,7 @@ module.exports = __webpack_require__.p + "assets/nyan.svg";
   \**************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "assets/prog.svg";
 
 /***/ }),
@@ -901,6 +932,7 @@ module.exports = __webpack_require__.p + "assets/prog.svg";
   \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "assets/rep.svg";
 
 /***/ }),
@@ -911,6 +943,7 @@ module.exports = __webpack_require__.p + "assets/rep.svg";
   \***************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "assets/apple-icon-114x114.png";
 
 /***/ }),
@@ -921,6 +954,7 @@ module.exports = __webpack_require__.p + "assets/apple-icon-114x114.png";
   \***************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "assets/apple-icon-120x120.png";
 
 /***/ }),
@@ -931,6 +965,7 @@ module.exports = __webpack_require__.p + "assets/apple-icon-120x120.png";
   \***************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "assets/apple-icon-144x144.png";
 
 /***/ }),
@@ -941,6 +976,7 @@ module.exports = __webpack_require__.p + "assets/apple-icon-144x144.png";
   \***************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "assets/apple-icon-152x152.png";
 
 /***/ }),
@@ -951,6 +987,7 @@ module.exports = __webpack_require__.p + "assets/apple-icon-152x152.png";
   \***************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "assets/apple-icon-180x180.png";
 
 /***/ }),
@@ -961,6 +998,7 @@ module.exports = __webpack_require__.p + "assets/apple-icon-180x180.png";
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "assets/apple-icon-57x57.png";
 
 /***/ }),
@@ -971,6 +1009,7 @@ module.exports = __webpack_require__.p + "assets/apple-icon-57x57.png";
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "assets/apple-icon-60x60.png";
 
 /***/ }),
@@ -981,6 +1020,7 @@ module.exports = __webpack_require__.p + "assets/apple-icon-60x60.png";
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "assets/apple-icon-72x72.png";
 
 /***/ }),
@@ -991,6 +1031,7 @@ module.exports = __webpack_require__.p + "assets/apple-icon-72x72.png";
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "assets/apple-icon-76x76.png";
 
 /***/ }),
@@ -1001,6 +1042,7 @@ module.exports = __webpack_require__.p + "assets/apple-icon-76x76.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "assets/favicon-16x16.png";
 
 /***/ }),
@@ -1011,6 +1053,7 @@ module.exports = __webpack_require__.p + "assets/favicon-16x16.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "assets/favicon-32x32.png";
 
 /***/ }),
@@ -1021,6 +1064,7 @@ module.exports = __webpack_require__.p + "assets/favicon-32x32.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "assets/favicon-96x96.png";
 
 /***/ }),
@@ -1031,6 +1075,7 @@ module.exports = __webpack_require__.p + "assets/favicon-96x96.png";
   \***************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "extend": () => (/* binding */ extend),
@@ -1197,6 +1242,7 @@ function getWindow() {
   \***************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getBreakpoint)
@@ -1247,6 +1293,7 @@ function getBreakpoint(breakpoints, base = 'window', containerEl) {
   \*******************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -1268,6 +1315,7 @@ __webpack_require__.r(__webpack_exports__);
   \***************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ setBreakpoint)
@@ -1353,6 +1401,7 @@ function setBreakpoint() {
   \**********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -1398,6 +1447,7 @@ function checkOverflow() {
   \********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ addClasses)
@@ -1461,6 +1511,7 @@ function addClasses() {
   \***************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -1482,6 +1533,7 @@ __webpack_require__.r(__webpack_exports__);
   \***********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ removeClasses)
@@ -1504,6 +1556,7 @@ function removeClasses() {
   \******************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -2116,6 +2169,7 @@ Swiper.use([_modules_resize_resize_js__WEBPACK_IMPORTED_MODULE_5__["default"], _
   \**********************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -2245,6 +2299,7 @@ __webpack_require__.r(__webpack_exports__);
   \****************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -2356,6 +2411,7 @@ __webpack_require__.r(__webpack_exports__);
   \**************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -2468,6 +2524,7 @@ function detachEvents() {
   \****************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ onClick)
@@ -2492,6 +2549,7 @@ function onClick(e) {
   \***************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ onLoad)
@@ -2512,6 +2570,7 @@ function onLoad(e) {
   \*****************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ onResize)
@@ -2576,6 +2635,7 @@ function onResize() {
   \*****************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ onScroll)
@@ -2619,6 +2679,7 @@ function onScroll() {
   \*******************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ onTouchEnd)
@@ -2778,6 +2839,7 @@ function onTouchEnd(event) {
   \********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ onTouchMove)
@@ -3034,6 +3096,7 @@ function onTouchMove(event) {
   \*********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ onTouchStart)
@@ -3161,6 +3224,7 @@ function onTouchStart(event) {
   \*******************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -3182,6 +3246,7 @@ __webpack_require__.r(__webpack_exports__);
   \***************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ setGrabCursor)
@@ -3202,6 +3267,7 @@ function setGrabCursor(moving) {
   \*****************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ unsetGrabCursor)
@@ -3222,6 +3288,7 @@ function unsetGrabCursor() {
   \************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -3246,6 +3313,7 @@ __webpack_require__.r(__webpack_exports__);
   \*****************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ loopCreate)
@@ -3277,6 +3345,7 @@ function loopCreate(slideRealIndex) {
   \******************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ loopDestroy)
@@ -3313,6 +3382,7 @@ function loopDestroy() {
   \**************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ loopFix)
@@ -3468,6 +3538,7 @@ function loopFix({
   \********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ moduleExtendParams)
@@ -3514,6 +3585,7 @@ function moduleExtendParams(params, allModulesParams) {
   \***************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ Observer)
@@ -3597,6 +3669,7 @@ function Observer({
   \***********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ Resize)
@@ -3678,6 +3751,7 @@ function Resize({
   \*************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -3714,6 +3788,7 @@ __webpack_require__.r(__webpack_exports__);
   \*****************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ slideNext)
@@ -3755,6 +3830,7 @@ function slideNext(speed = this.params.speed, runCallbacks = true, internal) {
   \*****************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ slidePrev)
@@ -3824,6 +3900,7 @@ function slidePrev(speed = this.params.speed, runCallbacks = true, internal) {
   \******************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ slideReset)
@@ -3842,6 +3919,7 @@ function slideReset(speed = this.params.speed, runCallbacks = true, internal) {
   \***************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ slideTo)
@@ -3998,6 +4076,7 @@ function slideTo(index = 0, speed = this.params.speed, runCallbacks = true, inte
   \***************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ slideToClickedSlide)
@@ -4049,6 +4128,7 @@ function slideToClickedSlide() {
   \**********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ slideToClosest)
@@ -4090,6 +4170,7 @@ function slideToClosest(speed = this.params.speed, runCallbacks = true, internal
   \*******************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ slideToLoop)
@@ -4122,6 +4203,7 @@ function slideToLoop(index = 0, speed = this.params.speed, runCallbacks = true, 
   \******************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -4146,6 +4228,7 @@ __webpack_require__.r(__webpack_exports__);
   \**************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ setTransition)
@@ -4166,6 +4249,7 @@ function setTransition(duration, byController) {
   \***************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ transitionEmit)
@@ -4207,6 +4291,7 @@ function transitionEmit({
   \**************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ transitionEnd)
@@ -4237,6 +4322,7 @@ function transitionEnd(runCallbacks = true, direction) {
   \****************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ transitionStart)
@@ -4268,6 +4354,7 @@ function transitionStart(runCallbacks = true, direction) {
   \************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getSwiperTranslate)
@@ -4301,6 +4388,7 @@ function getSwiperTranslate(axis = this.isHorizontal() ? 'x' : 'y') {
   \*****************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -4331,6 +4419,7 @@ __webpack_require__.r(__webpack_exports__);
   \************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ maxTranslate)
@@ -4347,6 +4436,7 @@ function maxTranslate() {
   \************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ minTranslate)
@@ -4363,6 +4453,7 @@ function minTranslate() {
   \************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ setTranslate)
@@ -4417,6 +4508,7 @@ function setTranslate(translate, byController) {
   \***********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ translateTo)
@@ -4501,6 +4593,7 @@ function translateTo(translate = 0, speed = this.params.speed, runCallbacks = tr
   \**************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -4543,6 +4636,7 @@ __webpack_require__.r(__webpack_exports__);
   \**************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ updateActiveIndex),
@@ -4647,6 +4741,7 @@ function updateActiveIndex(newActiveIndex) {
   \*************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ updateAutoHeight)
@@ -4705,6 +4800,7 @@ function updateAutoHeight(speed) {
   \***************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ updateClickedSlide)
@@ -4749,6 +4845,7 @@ function updateClickedSlide(e) {
   \***********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ updateProgress)
@@ -4826,6 +4923,7 @@ function updateProgress(translate) {
   \*******************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ updateSize)
@@ -4871,6 +4969,7 @@ function updateSize() {
   \*********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ updateSlides)
@@ -5170,6 +5269,7 @@ function updateSlides() {
   \****************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ updateSlidesClasses)
@@ -5236,6 +5336,7 @@ function updateSlidesClasses() {
   \***************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ updateSlidesOffset)
@@ -5258,6 +5359,7 @@ function updateSlidesOffset() {
   \*****************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ updateSlidesProgress)
@@ -5310,6 +5412,7 @@ function updateSlidesProgress(translate = this && this.translate || 0) {
   \**************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ A11y)
@@ -5667,6 +5770,7 @@ function A11y({
   \**********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ Autoplay)
@@ -5960,6 +6064,7 @@ function Autoplay({
   \**************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ Controller)
@@ -6154,6 +6259,7 @@ function Controller({
   \******************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ EffectCards)
@@ -6288,6 +6394,7 @@ function EffectCards({
   \**************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ EffectCoverflow)
@@ -6404,6 +6511,7 @@ function EffectCoverflow({
   \************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ EffectCreative)
@@ -6562,6 +6670,7 @@ function EffectCreative({
   \****************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ EffectCube)
@@ -6746,6 +6855,7 @@ function EffectCube({
   \****************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ EffectFade)
@@ -6825,6 +6935,7 @@ function EffectFade({
   \****************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ EffectFlip)
@@ -6949,6 +7060,7 @@ function EffectFlip({
   \************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ freeMode)
@@ -7191,6 +7303,7 @@ function freeMode({
   \**************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ Grid)
@@ -7302,6 +7415,7 @@ function Grid({
   \************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ HashNavigation)
@@ -7402,6 +7516,7 @@ function HashNavigation({
   \********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ History)
@@ -7556,6 +7671,7 @@ function History({
   \**********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ Keyboard)
@@ -7684,6 +7800,7 @@ function Keyboard({
   \******************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ Manipulation)
@@ -7718,6 +7835,7 @@ function Manipulation({
   \**********************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ addSlide)
@@ -7784,6 +7902,7 @@ function addSlide(index, slides) {
   \*************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ appendSlide)
@@ -7831,6 +7950,7 @@ function appendSlide(slides) {
   \**************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ prependSlide)
@@ -7882,6 +8002,7 @@ function prependSlide(slides) {
   \*****************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ removeAllSlides)
@@ -7903,6 +8024,7 @@ function removeAllSlides() {
   \*************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ removeSlide)
@@ -7955,6 +8077,7 @@ function removeSlide(slidesIndexes) {
   \**************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ Mousewheel)
@@ -8353,6 +8476,7 @@ function Mousewheel({
   \**************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ Navigation)
@@ -8553,6 +8677,7 @@ function Navigation({
   \**************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ Pagination)
@@ -8985,6 +9110,7 @@ function Pagination({
   \**********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ Parallax)
@@ -9105,6 +9231,7 @@ function Parallax({
   \************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ Scrollbar)
@@ -9469,6 +9596,7 @@ function Scrollbar({
   \******************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ Thumb)
@@ -9674,6 +9802,7 @@ function Thumb({
   \********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ Virtual)
@@ -10014,6 +10143,7 @@ function Virtual({
   \**************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ Zoom)
@@ -10584,6 +10714,7 @@ function Zoom({
   \***********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ classesToSelector)
@@ -10601,6 +10732,7 @@ function classesToSelector(classes = '') {
   \*********************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ createElementIfNotDefined)
@@ -10633,6 +10765,7 @@ function createElementIfNotDefined(swiper, originalParams, params, checkProps) {
   \*****************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ createShadow)
@@ -10658,6 +10791,7 @@ function createShadow(params, slideEl, side) {
   \***************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ effectInit)
@@ -10727,6 +10861,7 @@ function effectInit(params) {
   \*****************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ effectTarget)
@@ -10750,6 +10885,7 @@ function effectTarget(effectParams, slideEl) {
   \*********************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ effectVirtualTransitionEnd)
@@ -10808,6 +10944,7 @@ function effectVirtualTransitionEnd({
   \***************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "getBrowser": () => (/* binding */ getBrowser)
@@ -10851,6 +10988,7 @@ function getBrowser() {
   \**************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "getDevice": () => (/* binding */ getDevice)
@@ -10917,6 +11055,7 @@ function getDevice(overrides = {}) {
   \***************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "getSupport": () => (/* binding */ getSupport)
@@ -10948,6 +11087,7 @@ function getSupport() {
   \**************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "processLazyPreloader": () => (/* binding */ processLazyPreloader)
@@ -10970,6 +11110,7 @@ const processLazyPreloader = (swiper, imageEl) => {
   \*********************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "animateCSSModeScroll": () => (/* binding */ animateCSSModeScroll),
@@ -11270,6 +11411,7 @@ function elementOuterSize(el, size, includeMargins) {
   \*******************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "A11y": () => (/* reexport safe */ _modules_a11y_a11y_js__WEBPACK_IMPORTED_MODULE_10__["default"]),
@@ -11496,22 +11638,26 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
+"use strict";
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.html */ "./src/index.html");
 /* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ "./src/index.scss");
-/* harmony import */ var swiper_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! swiper/scss */ "./node_modules/swiper/swiper.scss");
-/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! swiper */ "./node_modules/swiper/swiper.esm.js");
+/* harmony import */ var _script_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./script.js */ "./src/script.js");
+/* harmony import */ var _script_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_script_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var swiper_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! swiper/scss */ "./node_modules/swiper/swiper.scss");
+/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! swiper */ "./node_modules/swiper/swiper.esm.js");
 
 
 
 
-var swiper = new swiper__WEBPACK_IMPORTED_MODULE_3__["default"](".swiper", {
-  modules: [swiper__WEBPACK_IMPORTED_MODULE_3__.Navigation, swiper__WEBPACK_IMPORTED_MODULE_3__.Pagination],
+
+var swiper = new swiper__WEBPACK_IMPORTED_MODULE_4__["default"](".swiper", {
+  modules: [swiper__WEBPACK_IMPORTED_MODULE_4__.Navigation, swiper__WEBPACK_IMPORTED_MODULE_4__.Pagination],
   pagination: {
     el: '.swiper-pagination',
     clickable: true
@@ -11547,4 +11693,4 @@ var swiper = new swiper__WEBPACK_IMPORTED_MODULE_3__["default"](".swiper", {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.4184beb56345dfb72dc3.js.map
+//# sourceMappingURL=main.2e948a8354b890a4afcf.js.map
