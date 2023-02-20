@@ -16,7 +16,7 @@ module.exports = {
     open: true,
     hot: true,
   },
-  entry: path.resolve(__dirname, 'src', 'index.js'),
+  entry: path.resolve(__dirname, 'src', 'store.js'),
   output: {
     path: path.resolve(__dirname, 'dist'),
     clean: true,
